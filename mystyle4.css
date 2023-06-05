@@ -1,0 +1,59 @@
+body{
+    background: url(./bk.jpeg);
+    background-size: cover;
+}
+.back::after
+{
+    content: '';
+    inset: 0;
+    background:black;
+    z-index: -1;
+    position: absolute;
+    opacity: .6;
+    
+   
+}
+.v1
+{
+    border-left: 1px solid white;
+    position: absolute;
+    left: 50%;
+    height: 680px;
+}
+#mar
+{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+.prof
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 15px;
+}
+.ber
+{
+    margin-right: 10px;
+}
+.rad
+{
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.ds:hover{
+    border-radius: 50%;
+}
+.hg
+{
+    font-family:cursive;
+}
+.slides
+{
+      animation:slider 11s infinite linear;
+}
+@keyframes slider{
+  0%{background-image: url(./gh.jpeg);}
+  35%{background-image: url(./title.png);}
+  75%{background-image: url(./prof2.jpg);}
+}

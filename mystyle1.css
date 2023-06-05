@@ -1,0 +1,88 @@
+.v2 {
+    border-left: 1px solid whitesmoke;
+    height: 650px;
+   position: absolute;
+   left: 50%;
+   margin-top: 0%;
+    
+  }
+  body{
+    background: url("./bg.jpg");
+    background-size: cover;
+      
+  }
+  .back::after
+  {
+    position: absolute;
+    inset: 0;
+    content: '';
+    z-index: -1;
+    background: pink;
+    opacity: .5;
+    background-size: cover;
+  }
+
+ 
+  h1{
+    color:black;
+    text-align: left;
+    font-style:initial;
+    background-color: aqua  ;
+    
+  }
+  #mar
+  {
+   display: flex;
+   justify-content: space-evenly;
+   text-align: justify;
+  } 
+  #jon
+  {
+    margin-right: 100px;
+    padding-left: 20px;
+  }
+  #kal
+  {
+    padding-right: 20px;
+  }
+  #sp
+  {
+    background-color: cornsilk;
+    text-align: center;
+  }
+
+  #bc{
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: black;
+  }
+  #bc:hover{
+    background-color: rgb(54, 69, 79);
+  }
+  
+  .hg{
+    font-family:cursive;
+  }
+
+  #wall{
+    border-radius: 0%;
+  }
+  img{
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+ 
+
+
+img{
+  box-shadow: 1px 2px 18px black;
+}
+.slides
+{
+      animation:slider 11s infinite linear;
+}
+@keyframes slider{
+  0%{background-image: url(./aurora.jpeg);}
+  35%{background-image: url(./logo.png);}
+  75%{background-image: url(./got2.jpg);}
+}
